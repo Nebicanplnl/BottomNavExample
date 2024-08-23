@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.bottomnavexample.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <dialog
+        android:id="@+id/QRDialogFragment"
+        android:name="com.example.bottomnavexample.QRDialogFragment"
+        android:label="fragment_q_r_dialog"
+        tools:layout="@layout/fragment_q_r_dialog" />
+    <dialog
+        android:id="@+id/monetTransferDialogFragment"
+        android:name="com.example.bottomnavexample.MonetTransferDialogFragment"
+        android:label="fragment_monet_transfer_dialog"
+        tools:layout="@layout/fragment_monet_transfer_dialog" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.bottomnavexample.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/paparaCardFragment"
+        android:name="com.example.bottomnavexample.CardFragment"
+        android:label="fragment_papara_card"
+        tools:layout="@layout/fragment_card" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.bottomnavexample.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/withDrawDepositFragment"
+        android:name="com.example.bottomnavexample.WithDrawDepositFragment"
+        android:label="fragment_with_draw_deposit"
+        tools:layout="@layout/fragment_with_draw_deposit" />
+    <fragment
+        android:id="@+id/searchAtmFragment"
+        android:name="com.example.bottomnavexample.SearchAtmFragment"
+        android:label="fragment_search_atm"
+        tools:layout="@layout/fragment_search_atm" />
+</navigation>

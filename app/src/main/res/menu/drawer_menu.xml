@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/notificationFragment"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notification" />
+
+    <item android:id="@+id/withDrawDepositFragment"
+        android:title="Search Atm"
+        android:icon="@drawable/ic_location" />
+
+    <item android:id="@+id/searchAtmFragment"
+        android:title="WithDraw/Deposit"
+        android:icon="@drawable/ic_withdep" />
+
+</menu>
